@@ -6,7 +6,8 @@ description: >-
   「レポートを書きたい」「自分用にメモしたい」「下書きを作りたい」といった依頼で使う。
   用途(ゼミ発表 / 課題レジュメ / 提出レポート / 自分用メモ)に応じて pptx / docx / md を
   作り分ける。※文献を「読む・記録する」作業は対象外 —— 論文の翻訳は
-  academic-paper-translator、文献レビューの記録は literature-review-assistant を使うこと。
+  academic-paper-translator、文献レビューの記録は literature-review-assistant、
+  ゼミ・指導で受けたコメントの記録は advisor-meeting-logger を使うこと。
   本スキルは自分の発表資料・提出物・メモを「作る」ためのもの。
 ---
 
@@ -55,4 +56,5 @@ description: >-
   docx スキル(`/mnt/skills/public/docx/SKILL.md`)が利用可能ならそちらの作法に従う。
 - **境界**: 文献を読む・訳す → `academic-paper-translator`。
   文献レビューを記録・蓄積する → `literature-review-assistant`。
+  ゼミ・指導で受けたコメントを記録・追跡する → `advisor-meeting-logger`。
   自分の発表資料・提出物・メモを作る → 本スキル。
