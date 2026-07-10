@@ -4,10 +4,34 @@
 
 1. **CiNii Research** — 日本語論文の第一候補。書誌の正本として使う
 2. **J-STAGE** — 日本語のオープンアクセス本文。PDF リンクをそのまま渡せる
-3. **Google Scholar** — 英語文献と被引用数。重要文献は「引用元」で芋づる検索
+3. **Google Scholar** — 英語文献の入口と被引用数。**Elsevier(ScienceDirect)・
+   Springer・Wiley・Taylor & Francis・SAGE・Frontiers・MDPI など主要出版社の論文は
+   ここで横断的にヒットする**ので、出版社サイトを個別に回る必要は基本ない。
+   重要文献は「引用元」で芋づる検索
 4. **大阪大学学術情報庫 OUKA** — 阪大リポジトリ。紀要・学位論文
 5. 阪大契約データベース(学内ネットワーク限定のもの)— 上で見つからないときに
    「学内からアクセスして確認」と案内する(学外からの代理取得はしない)
+
+## 英語論文の本文入手(ヒットした後の話)
+
+「検索でヒットする」と「本文が読める」は別問題。出版社の系統で分けて案内する:
+
+- **オープンアクセス系(Frontiers・MDPI・PLOS 等)** — 誰でも PDF 入手可。
+  リンクをそのまま渡してよい
+- **購読系(ScienceDirect=Elsevier・Springer・Wiley・Taylor & Francis・SAGE 等)** —
+  原則有料。次の順で入手経路を探す:
+  1. その論文自体が OA(Open Access 表示)になっていないか確認
+  2. Google Scholar の「全 n バージョン」からリポジトリ版・著者最終稿を探す
+  3. 阪大の契約データベースに**学内ネットワークから**アクセスして確認、と案内
+  4. それでも無ければ ILL(文献複写取り寄せ)を案内
+- どの経路かをリストに明記する(例: [入手: OA・PDF 直リンク] / [入手: 学内アクセス要])
+
+## この分野でよく出る英語誌(誌名で絞る検索の手がかり)
+
+人と動物の関係・動物倫理: Anthrozoös / Society & Animals /
+Animals(MDPI・OA)/ Journal of Applied Animal Welfare Science。
+プライバシー・監視研究: Surveillance & Society(OA)/ Ethics and Information Technology。
+※あくまで検索の入口。掲載誌はここに限らず、個々の文献の実在確認は必ず検索で行う。
 
 ## 検索語の設計
 
