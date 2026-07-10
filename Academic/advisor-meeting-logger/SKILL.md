@@ -9,7 +9,8 @@ description: >-
   記録化にも対応。渡されたメモ・文字起こしの原文は必ずそのまま保存し、
   指摘の分類・解釈はそこから導く。※文献のノート化は literature-review-assistant、発表資料・レジュメ
   自体の作成は academic-document-formatter、仕事(道路設計業務)の打合せ・協議の記録は
-  meeting-record-keeper を使うこと。本スキルは「大学院で受けた指導を記録し、
+  meeting-record-keeper、出どころをまたいだタスク全体の整理・優先順位づけは
+  task-triage を使うこと。本スキルは「大学院で受けた指導を記録し、
   対応を追跡する」ためのもの。
 ---
 
