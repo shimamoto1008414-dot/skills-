@@ -1,6 +1,15 @@
 ---
 name: academic-paper-translator
-description: Fully translate an English academic paper into Japanese for graduate research, preserving the paper's structure so the flow of the argument stays intact. Leads with a short summary, then gives a complete (not condensed) translation, a term glossary that keeps the original English in parentheses, and notes on how the paper connects to the user's animal-privacy thesis. Use whenever the user wants to READ, translate, or understand an English paper, chapter, abstract, or NotebookLM extract — 「この英語論文を翻訳して」「全文翻訳して」「訳して」「和訳して」「この論文何て書いてある？」「英語の論文読みたいけど時間ない」「通勤中に読める形にして」, translate this paper, what does this paper say, summarize this English article so I can understand it. Trigger even when the user just pastes an English paper with little instruction — full Japanese comprehension is the default need. If the user instead wants a permanent fixed-format note for Notion (「文献メモ」「Notionに入れる」), use the literature-review-assistant skill — this skill aids comprehension, that one keeps the record. Output is delivered as a Word (.docx) file, not Markdown.
+description: >-
+  英語論文を、段落構造を保ったまま省略なしで日本語に全文翻訳するスキル。
+  冒頭に短い要約、本文の完全訳、重要用語の日英対訳表、自分の研究
+  (動物のプライバシー)との接続メモを付け、成果物は Word(.docx)ファイルで出す。
+  「この英語論文を翻訳して」「全文翻訳して」「訳して」「和訳して」
+  「この論文何て書いてある?」「英語の論文を読みたいけど時間がない」といった
+  依頼で使うほか、英語論文・抄録・NotebookLM 抽出がほぼ指示なしで貼られた
+  ときも発動する(日本語で読み通したい、が既定の要望)。※Notion 用の
+  文献ノート化は literature-review-assistant、用語の蓄積は research-glossary を
+  使うこと。本スキルは「英語論文を日本語で読み通す」ためのもの。
 ---
 
 # Academic Paper Translator
