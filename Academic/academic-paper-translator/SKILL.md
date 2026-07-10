@@ -58,7 +58,7 @@ description: Fully translate an English academic paper into Japanese for graduat
 **保存先**: ユーザー指定があればそこ。指定が無ければ入力元のPDF/テキストと同じフォルダに保存する。
 **.docx の生成手段**: `docx` スキルなど、その環境で使える手段で Word 文書を作る。日本語(CJK)フォントで文字化けしないようにする。生成後は保存パスをユーザーに伝える。
 
-出力後に一度だけ、「このまま literature-review-assistant で文献ノート(Notion用)にしますか？」と橋渡しを提案する(押し付けない)。
+出力後に一度だけ、「このまま literature-review-assistant で文献ノート(Notion用)にしますか？ 対訳表の用語を research-glossary(用語の貯蔵庫)に登録しますか？」と橋渡しを提案する(押し付けない)。
 
 ## Step 3: 対訳(バイリンガル)表示 — 依頼時のみ
 
