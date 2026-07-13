@@ -7,7 +7,8 @@ description: >-
   出力フォーマットは「場面(ゼミ / 授業 / 学会)」ではなく、作ろうとしている
   「文書の様式(スライド / レジュメ / レポート / メモ)」で pptx / docx / md を作り分ける。
   ※文献を「読む・記録する」作業は対象外 —— 論文の翻訳は academic-paper-translator、
-  文献レビューの記録は literature-review-assistant を使うこと。
+  文献レビューの記録は literature-review-assistant、ゼミ・指導で受けたコメントの記録は
+  advisor-meeting-logger を使うこと。
   本スキルは自分の発表資料・提出物・メモを「作る」ためのもの。
 ---
 
@@ -67,4 +68,5 @@ description: >-
   docx スキル(`/mnt/skills/public/docx/SKILL.md`)が利用可能ならそちらの作法に従う。
 - **境界**: 文献を読む・訳す → `academic-paper-translator`。
   文献レビューを記録・蓄積する → `literature-review-assistant`。
+  ゼミ・指導で受けたコメントを記録・追跡する → `advisor-meeting-logger`。
   自分の発表資料・提出物・メモを作る → 本スキル。

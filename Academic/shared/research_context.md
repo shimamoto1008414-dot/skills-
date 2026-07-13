@@ -1,7 +1,7 @@
 # 研究コンテキスト
 
 **研究の進展に合わせてこのファイルだけを更新する(SKILL.md本体は触らない)。**
-**このファイルは academic-paper-translator と literature-review-assistant の2スキルで共有している(シンボリックリンク)。ここを1回編集すれば両スキルに反映される。**
+**このファイルは academic-paper-translator / literature-review-assistant / advisor-meeting-logger / literature-scout / research-glossary の5スキルで共有している(シンボリックリンク)。ここを1回編集すれば全スキルに反映される。**
 
 - 所属: 大阪大学大学院 人間科学研究科 環境共生学系 M1(2026年度)
 - 指導教員: 太田先生
