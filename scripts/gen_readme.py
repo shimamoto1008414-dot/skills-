@@ -83,10 +83,20 @@ def category_of(rel: pathlib.PurePath) -> str:
 
 def collect() -> dict[str, list[dict]]:
     groups: dict[str, list[dict]] = {}
+    seen: set[pathlib.Path] = set()
     for skill_md in sorted(ROOT.rglob("SKILL.md")):
         if ".git" in skill_md.parts:
             continue
-        rel = skill_md.relative_to(ROOT).parent
+        # `.claude/skills/` の symlink 経由などで同じ実体を二重に拾わないよう、
+        # 実体パスで重複排除し、場所・表示も実体の位置で決める。
+        real = skill_md.resolve()
+        if real in seen:
+            continue
+        seen.add(real)
+        try:
+            rel = real.relative_to(ROOT).parent
+        except ValueError:
+            rel = skill_md.relative_to(ROOT).parent
         meta = load_skill(skill_md)
         cat = category_of(rel)
         groups.setdefault(cat, []).append(
