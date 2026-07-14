@@ -105,5 +105,7 @@ zip を展開して `references/` の中身が本物のファイルになって�
   折り返し行を 1 行に結合した文字数で数える。900 字を超えたら削る側に倒す)
 - [ ] SKILL.md 本体は判定ロジック+共通ルールのみで、詳細は references/ に分割した
 - [ ] 境界が変わった場合、関係する他スキルも更新した
+- [ ] **README の一覧を更新した**(`python3 scripts/gen_readme.py`。スキルを追加/リネーム/
+  削除したら実行。`core.hooksPath .githooks` を設定済みならコミット時に自動実行される)
 - [ ] symlink が相対パスで、リンク切れしていない(`ls -la` で確認)
 - [ ] コミットメッセージは既存に倣い英語(例: `Add ○○ skill to Academic folder`)

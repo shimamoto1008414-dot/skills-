@@ -1,0 +1,13 @@
+#!/bin/sh
+# スキル一覧を README.md に自動反映してからコミットする。
+# 有効化: git config core.hooksPath .githooks  (クローンごとに一度)
+
+if command -v python3 >/dev/null 2>&1; then
+    python3 scripts/gen_readme.py || {
+        echo "pre-commit: README 生成に失敗しました" >&2
+        exit 1
+    }
+    git add README.md
+else
+    echo "pre-commit: python3 が無いため README 自動更新をスキップしました" >&2
+fi
