@@ -14,7 +14,7 @@
 
 <!-- SKILLS:START -->
 
-## スキル一覧（現在 **12** スキル）
+## スキル一覧（現在 **13** スキル）
 
 ### 📚 Academic（大学院・研究）
 
@@ -41,6 +41,12 @@
 | スキル | 場所 | 何をする |
 |---|---|---|
 | `task-triage` | `personal/task-triage` | 仕事(道路設計業務)・大学院・私用のタスクを横断で整理するスキル。 |
+
+### 🧩 other（その他）
+
+| スキル | 場所 | 何をする |
+|---|---|---|
+| `dual-model-executor-advisor` | `other/dual-model-executor-advisor` | 実行役モデルと相談役モデルの 2 モデル体制で作業を進めるためのスキル。 |
 
 ### ⚙️ 管理用（Claude Code 上で使う）
 
